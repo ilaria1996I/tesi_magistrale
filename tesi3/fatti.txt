@@ -1,0 +1,102 @@
+
+% Fatti
+tempo(0).
+attivita(partenza).
+statiMassimi(10).
+
+%%FATTI PRIMO INCENDIO
+incendioPresenteAlleCoordinate(437,442).
+vento(437,442,est,25).
+condizioneMeterologica(437,442,soleggiato). %X,Y,condizioneMeterologica
+umiditaInPercentuale(437,442,5). %X,Y,U
+temperatura(437,442,30). %X,Y,T
+ventoNelle2OreSuccessive(437,442,est,20). %X,Y,direzioneVento, nodi
+temperaturaNelle2OreSuccessive(437,442,30). %X,Y,temperatura
+umiditaInPercentualeNelle2OreSuccessive(437,442,3). %X,Y,umidita
+condizioneMeterologicaNelle2OreSuccessive(437,442,soleggiato). %X,Y,condizioneMeterologica
+presenzaUmaniNellAreaLimitrofaDellIncendio(437,442,5). %X,Y,presenzaUmaniNellAreaLimitrofaDellIncendio
+presenzaAnimaliNellAreaLimitrofaDellIncendio(437,442,3). %X,Y,presenzaAnimaliNellAreaLimitrofaDellIncendio
+dimensioneDellIncendioInEttari(437,442,120). %X,Y,dimensioneDellIncendioInEttari
+
+
+%%FATTI SECONDO INCENDIO
+incendioPresenteAlleCoordinate(1093,615).
+vento(1093,615,ovest,27).
+condizioneMeterologica(1093,615,nuvoloso). %X,Y,condizioneMeterologica
+umiditaInPercentuale(1093,615,1). %X,Y,U
+temperatura(1093,615,30). %X,Y,T
+ventoNelle2OreSuccessive(1093,615,est,21). %X,Y,direzioneVento, nodi
+temperaturaNelle2OreSuccessive(1093,615,36). %X,Y,temperatura
+umiditaInPercentualeNelle2OreSuccessive(1093,615,6). %X,Y,umidita
+condizioneMeterologicaNelle2OreSuccessive(1093,615,soleggiato). %X,Y,condizioneMeterologica
+
+presenzaUmaniNellAreaLimitrofaDellIncendio(1093,615,3). %X,Y,presenzaUmaniNellAreaLimitrofaDellIncendio
+presenzaAnimaliNellAreaLimitrofaDellIncendio(1093,615,1). %X,Y,presenzaAnimaliNellAreaLimitrofaDellIncendio
+dimensioneDellIncendioInEttari(1093,615,110). %X,Y,dimensioneDellIncendioInEttari
+
+%%FATTI terzo INCENDIO
+incendioPresenteAlleCoordinate(598,468).
+vento(598,468,ovest,27).
+condizioneMeterologica(598,468,nuvoloso). %X,Y,condizioneMeterologica
+umiditaInPercentuale(598,468,4). %X,Y,U
+temperatura(598,468,20). %X,Y,T
+ventoNelle2OreSuccessive(598,468,est,21). %X,Y,direzioneVento, nodi
+temperaturaNelle2OreSuccessive(598,468,36). %X,Y,temperatura
+umiditaInPercentualeNelle2OreSuccessive(598,468,6). %X,Y,umidita
+condizioneMeterologicaNelle2OreSuccessive(598,468,soleggiato). %X,Y,condizioneMeterologica
+dimensioneDellIncendioInEttari(598,468,110). %X,Y,dimensioneDellIncendioInEttari
+
+
+%%FATTI quarto INCENDIO
+incendioPresenteAlleCoordinate(267,424).
+vento(267,424,ovest,27).
+condizioneMeterologica(267,424,nuvoloso). %X,Y,condizioneMeterologica
+umiditaInPercentuale(267,424,4). %X,Y,U
+temperatura(267,424,20). %X,Y,T
+ventoNelle2OreSuccessive(267,424,est,21). %X,Y,direzioneVento, nodi
+temperaturaNelle2OreSuccessive(267,424,36). %X,Y,temperatura
+umiditaInPercentualeNelle2OreSuccessive(267,424,6). %X,Y,umidita
+condizioneMeterologicaNelle2OreSuccessive(267,424,soleggiato). %X,Y,condizioneMeterologica
+presenzaUmaniNellAreaLimitrofaDellIncendio(267,424,3). %X,Y,presenzaUmaniNellAreaLimitrofaDellIncendio
+presenzaAnimaliNellAreaLimitrofaDellIncendio(267,424,1). %X,Y,presenzaAnimaliNellAreaLimitrofaDellIncendio
+dimensioneDellIncendioInEttari(267,424,110). %X,Y,dimensioneDellIncendioInEttari
+richiestaDiVentilatori(267,424,1).
+
+
+%%FATTI quinto INCENDIO
+incendioPresenteAlleCoordinate(61,447).
+vento(61,447,ovest,27).
+condizioneMeterologica(61,447,nuvoloso). %X,Y,condizioneMeterologica
+umiditaInPercentuale(61,447,4). %X,Y,U
+temperatura(61,447,20). %X,Y,T
+ventoNelle2OreSuccessive(61,447,est,21). %X,Y,direzioneVento, nodi
+temperaturaNelle2OreSuccessive(61,447,36). %X,Y,temperatura
+umiditaInPercentualeNelle2OreSuccessive(61,447,6). %X,Y,umidita
+condizioneMeterologicaNelle2OreSuccessive(61,447,soleggiato). %X,Y,condizioneMeterologica
+dimensioneDellIncendioInEttari(61,447,110). %X,Y,dimensioneDellIncendioInEttari
+
+%%FATTI sesto INCENDIO
+incendioPresenteAlleCoordinate(825,470).
+vento(825,470,ovest,27).
+condizioneMeterologica(825,470,nuvoloso). %X,Y,condizioneMeterologica
+umiditaInPercentuale(825,470,4). %X,Y,U
+temperatura(825,470,20). %X,Y,T
+ventoNelle2OreSuccessive(825,470,est,21). %X,Y,direzioneVento, nodi
+temperaturaNelle2OreSuccessive(825,470,36). %X,Y,temperatura
+umiditaInPercentualeNelle2OreSuccessive(825,470,6). %X,Y,umidita
+condizioneMeterologicaNelle2OreSuccessive(825,470,soleggiato). %X,Y,condizioneMeterologica
+dimensioneDellIncendioInEttari(61,447,110). %X,Y,dimensioneDellIncendioInEttari
+richiestaDiVentilatori(825,470,1).
+
+%%FATTI settimo INCENDIO
+incendioPresenteAlleCoordinate(983,470).
+vento(983,470,ovest,27).
+condizioneMeterologica(983,470,nuvoloso). %X,Y,condizioneMeterologica
+umiditaInPercentuale(983,470,4). %X,Y,U
+temperatura(983,470,20). %X,Y,T
+ventoNelle2OreSuccessive(983,470,est,21). %X,Y,direzioneVento, nodi
+temperaturaNelle2OreSuccessive(983,470,36). %X,Y,temperatura
+umiditaInPercentualeNelle2OreSuccessive(983,470,6). %X,Y,umidita
+condizioneMeterologicaNelle2OreSuccessive(983,470,soleggiato). %X,Y,condizioneMeterologica
+dimensioneDellIncendioInEttari(61,447,110). %X,Y,dimensioneDellIncendioInEttari
+%%%% FINE FATTI
