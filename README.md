@@ -1,1 +1,1 @@
-Questo progetto include il codice sorgente utilizzato per lo sviluppo della mia tesi, il documento della tesi e un video che simula i movimenti del drone in azione.
+Questo progetto presenta il codice sorgente per lo sviluppo di un drone autonomo, realizzato utilizzando Answer Set Programming (ASP). Sono inclusi il documento della tesi e un video che simula i movimenti del drone durante le operazioni di emergenza.
